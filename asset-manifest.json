@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/facultyfinder-frontend/static/css/main.49400753.css",
+    "main.js": "/facultyfinder-frontend/static/js/main.e1083274.js",
+    "index.html": "/facultyfinder-frontend/index.html",
+    "main.49400753.css.map": "/facultyfinder-frontend/static/css/main.49400753.css.map",
+    "main.e1083274.js.map": "/facultyfinder-frontend/static/js/main.e1083274.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49400753.css",
+    "static/js/main.e1083274.js"
+  ]
+}
