@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const getIP = () => {
-    const host = window.location.hostname;
-    return host;
-}
+// const getIP = () => {
+//     const host = window.location.hostname;
+//     return host;
+// }
 const API_BASE_URL = `https://facultyfinder-backend-production.up.railway.app`; // Backend URL
 
 // 🔹 Fetch faculty based on filters (name, department, specialization)
