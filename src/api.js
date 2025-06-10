@@ -2,11 +2,13 @@ import axios from "axios";
 
 // const getIP = () => {
 //     const host = window.location.hostname;
+//     console.log(host);
 //     return host;
 // }
-const API_BASE_URL = `https://facultyfinder-backend-production.up.railway.app`; // Backend URL
+const API_BASE_URL =  `https://facultyfinder-backend.onrender.com`; //`http://${getIP()}:5000`;   //`https://facultyfinder-backend-production.up.railway.app`; // Backend URL
+console.log(API_BASE_URL)
 
-// 🔹 Fetch faculty based on filters (name, department, specialization)
+// Fetch faculty based on filters (name, department, specialization)
 export const searchFaculty = async (filters) => {
     try {
         const response = await axios.get(`${API_BASE_URL}/search`, { params: filters });
@@ -17,7 +19,7 @@ export const searchFaculty = async (filters) => {
     }
 };
 
-// 🔹 Get faculty schedule based on emp_id
+// Get faculty schedule based on emp_id
 export const getFacultySchedule = async (emp_id) => {
     try {
         const response = await axios.get(`${API_BASE_URL}/schedule`, { params: { emp_id } });

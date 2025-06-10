@@ -79,9 +79,9 @@ const FacultyFinder = () => {
       
     return (
         <div className="faculty-container">
-            <h2>Find Faculty</h2>
+            <h2>Faculty Finder</h2>
             <div className="search-box">
-                <input type="text" name="name" placeholder="Faculty Name" value={filters.name} onChange={handleChange} onKeyDown={handleKeyDown}/>
+                <input type="text" name="name" placeholder="Faculty Name" autoComplete="off" value={filters.name} onChange={handleChange} onKeyDown={handleKeyDown}/>
 
                 <select name="department" value={filters.department} onChange={handleChange} onKeyDown={handleKeyDown}>
                     <option value="" disabled hidden>Select Department</option>
